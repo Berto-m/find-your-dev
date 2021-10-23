@@ -1,6 +1,9 @@
-{% extends 'main.html' %} 
-{% block content %}
+{% extends 'main.html' %} {% block content %}
 <h1>{{project.title}}</h1>
-<br>
+<hr />
+{% for tag in tags %}
+<span style="border: 1px solid gray">{{tag}}</span>
+{% endfor %}
+<br />
 <p>{{project.description}}</p>
 {% endblock content %}
