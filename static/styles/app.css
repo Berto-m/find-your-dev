@@ -826,7 +826,15 @@ img {
   font-size: 1.8rem;
 }
 
+.alert {
+  position: fixed;
+  left: 50%;
+  top: 120px;
+  transform: translate(-50%, -50%);
 
+
+  z-index: 99999;
+}
 /*=======================
   Form Page
 ========================*/
