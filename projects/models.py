@@ -19,6 +19,9 @@ class Project(models.Model):
     def __str__(self):
         return self.title
 
+    class Meta:
+        ordering = ['-vote_ratio', '-vote_total', 'title']
+
 # columns for the reviews table
 class Review(models.Model):
     VOTE_TYPE = (
