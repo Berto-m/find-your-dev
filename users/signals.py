@@ -30,8 +30,8 @@ def deleteUser(sender, instance, **kwargs):
     try:
         user = instance.user
         user.delete()
-    except User.DoesNotExist:
-        print('User deletion was called from CASCADE')
+    except:
+        pass
 
 post_save.connect(createProfile, sender=User)
 post_save.connect(updateUser, sender=Profile)
