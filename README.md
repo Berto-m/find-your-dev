@@ -26,4 +26,4 @@ It's a social media web app for developers where they can showcase their work. i
 - pipenv install
 - python manage.py runserver
 
-<img src="static/images/showcase.png"
+<img src="static/images/showcase.png" />
