@@ -1,5 +1,5 @@
 :root {
-  --color-sub: #2d2d39;
+  --color-sub: #57a0d3;
 }
 
 .btn--sub {
@@ -666,6 +666,10 @@ img {
   padding: 3rem 4rem;
   width: 95%;
   max-width: 65rem;
+}
+
+#icon-reg {
+  color: #4682b4;
 }
 
 @media screen and (min-width: 650px) {
